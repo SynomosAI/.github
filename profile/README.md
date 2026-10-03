@@ -35,3 +35,35 @@ SynomosAI（诺莫斯 AI）是一套以**身份（Identity）· 溯源（Traceab
 ## 免责声明
 
 本组织内容为 SynomosAI 的**理论站位与工具化探索**，不代表任何已获认证、已商业化交付或已服务特定客户的声明；文中涉及的 ISO/IEC 42001、NIST AI RMF、GB/Z 185、EU AI Act 等外部标准与条款信息为公开资料转述，正式引用前请**独立核实**。API、授权码与形象大使等为路线图（roadmap）事项，尚未上线。
+
+---
+
+## Core 5 · 治理线入口
+
+**我们做什么** —— 一套围绕「注册表 · 证据 · 门禁（registry, evidence, gates）」的 AI 全生命周期治理工程体系：理论、协议、验证工具与公开入口四层贯通。
+
+**理论 → 协议 → 验证 → 入口（四层导览）**
+
+| 层 | 仓（`owner/repo` 全形） | 说明 |
+|---|---|---|
+| 理论 Theory | [`zhaoxinghua09-cell/lgd-theory`](https://github.com/zhaoxinghua09-cell/lgd-theory) | LGD 全程治理理论 · 规范文本保留所有权利 · concept DOI 10.5281/zenodo.22456647 |
+| 协议 Protocol | [`zhaoxinghua09-cell/uibc-core`](https://github.com/zhaoxinghua09-cell/uibc-core) | 参考实现 + 一致性测试（代码 Apache-2.0） |
+| 验证 Verification | [`zhaoxinghua09-cell/silent-failure-catalog`](https://github.com/zhaoxinghua09-cell/silent-failure-catalog) · [`zhaoxinghua09-cell/assayance`](https://github.com/zhaoxinghua09-cell/assayance) | silent-failure 目录 · 判定「一个检查是不是检查」的元方法 |
+| 入口 Entry | [`zhaoxinghua09-cell/LGD`](https://github.com/zhaoxinghua09-cell/LGD) | 公开入口与贡献体系：RUN IT / BREAK IT / BUILD IT |
+
+> LGD 治理线的理论仓、协议仓、验证仓与入口仓，统一维护于 [`zhaoxinghua09-cell`](https://github.com/zhaoxinghua09-cell)。
+
+### 权属宣告（照抄《LGD 对外表述规范》v1.4 §3.2）
+
+```
+© 2026 赵兴华 / Steven Zhao·China (ORCID 0009-0001-0512-1237). All rights reserved.
+理论署名 (attribution) : LGD（Lifecycle Governance Doctrine / 全程治理论）— SynomosAI initiative
+名称状态 (name status)  : "SynomosAI" / "MedXpert" — 未申请实体注册、未申请商标注册
+                        (not a registered legal entity; no trademark registered)
+生产参考部署 (production reference, self-reported) : MedXpert
+                    ← 非认证、非背书、非监管认可（not a certification or endorsement）
+
+代码许可 (code license) : 本页不涉代码；LGD 治理线代码仓（如 uibc-core）为 Apache-2.0（see repo LICENSE）
+                    本页与 LGD 理论表述文本不在任何代码许可覆盖范围内
+引用格式 (cite as)      : 本页无独立 DOI —— 理论真源 zhaoxinghua09-cell/lgd-theory · concept DOI 10.5281/zenodo.22456647
+```
