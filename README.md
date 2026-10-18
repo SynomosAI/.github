@@ -77,10 +77,11 @@ git clone https://github.com/SynomosAI/traceability-audit.git
 - `SECURITY.md` — 组织级安全策略
 - `CODEOWNERS` — 代码审查所有者
 - `llms.txt` / `llms-full.txt` / `AGENTS.md` / `README.en.md` — AI 可发现性文件（供 Agent 与索引器读取）
+- `LICENSE-CONTENT` — 内容许可（ARR + 注明出处可引用）
 
 ## 许可说明 / License
 
-本仓库为**组织门面与配置仓，未附独立 LICENSE 文件**。本页内容与组织内理论/规范表述文本不在任何代码许可覆盖范围内；各代码仓库的许可以其仓库内 LICENSE 为准（如 LGD 治理线代码仓为 Apache-2.0）。引用与分发组织内文档前，请先与维护者确认口径。
+本仓库内容采用**「保留所有权利（All Rights Reserved）+ 注明出处可引用」口径，详见 [LICENSE-CONTENT](LICENSE-CONTENT)**；本页与组织内理论/规范表述文本不在任何代码许可覆盖范围内。各代码仓库的许可以其仓库内 LICENSE 为准（如 LGD 治理线代码仓为 Apache-2.0）。引用与分发组织内文档前，请按 LICENSE-CONTENT 的引用格式注明出处。
 
 ## 安全与贡献
 
