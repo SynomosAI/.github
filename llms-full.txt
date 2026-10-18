@@ -1,0 +1,47 @@
+# SynomosAI（诺莫斯 AI）· 组织门面仓 — 完整文本
+
+本文件为 llms.txt 标准的「完整版」，供长上下文模型一次性读取本仓库的完整说明。
+
+## 这是什么
+
+`SynomosAI/.github` 是 GitHub 组织级配置与门面仓。SynomosAI（诺莫斯 AI）是一套以**身份（Identity）· 溯源（Traceability）· 治理（Governance）· 共生（Symbiosis）**为四支柱的理论与工程体系，致力于让 AI 的每一次决策可溯源、可解释、可审计、可问责。
+
+一句话：可信是 AI 进入商业的硬通货——这是 SynomosAI 的治理理论与工具生态组织门面。
+
+## 组织定位
+
+- 四支柱：Identity 身份（AI 行为者可核验的身份锚点）· Traceability 溯源（每条决策可复原事实链）· Governance 治理（从理念到可审计的证据底座）· Symbiosis 共生（人与 AI 的长期协作秩序）。
+- 技能生态：开箱即用的 Agent Skills（SKILL.md 规范，兼容主流 AI Agent 框架），生态全景见 `SynomosAI/synomosai-skills`。
+- Core 5 治理线（理论 → 协议 → 验证 → 入口）：`zhaoxinghua09-cell/lgd-theory`（理论）· `zhaoxinghua09-cell/uibc-core`（协议）· `zhaoxinghua09-cell/silent-failure-catalog`/`assayance`（验证）· `zhaoxinghua09-cell/LGD`（入口）。
+
+## 本仓库结构
+
+- `profile/README.md` — 组织首页展示（与根 README 同源）
+- `README.md` — 本仓库说明与组织总览
+- `SECURITY.md` — 组织级安全策略
+- `CODEOWNERS` — 代码审查所有者
+- `llms.txt` / `llms-full.txt` / `AGENTS.md` / `README.en.md` — AI 可发现性文件
+
+## 快速开始
+
+```bash
+# 浏览组织仓库列表
+gh repo list SynomosAI --limit 50
+
+# 克隆技能生态全景仓
+git clone https://github.com/SynomosAI/synomosai-skills.git
+
+# 查看理论站位
+git clone https://github.com/SynomosAI/traceability-audit.git
+```
+
+## 许可与权利
+
+本仓库为**组织门面与配置仓，未附独立 LICENSE 文件**。本页内容与组织内理论/规范表述文本不在任何代码许可覆盖范围内；各代码仓许可以其仓内 LICENSE 为准。完整权属宣告见 README（照抄《LGD 对外表述规范》v1.4 §3.2）。
+
+## 链接
+
+- 组织主页: https://github.com/SynomosAI
+- 技能生态全景: https://github.com/SynomosAI/synomosai-skills
+- 理论站位: https://github.com/SynomosAI/traceability-audit
+- 治理线入口: https://github.com/zhaoxinghua09-cell/LGD
