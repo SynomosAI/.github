@@ -1,0 +1,19 @@
+# SynomosAI（诺莫斯 AI）· 组织门面仓
+
+> AI 治理理论与工程体系组织（SynomosAI initiative）：身份（Identity）· 溯源（Traceability）· 治理（Governance）· 共生（Symbiosis）四支柱。
+
+`SynomosAI/.github` 是 GitHub 组织级配置与门面仓：组织首页 Profile、组织级 SECURITY.md、CODEOWNERS 与 AI 可发现性文件。
+
+## 核心
+
+- [profile/README.md](profile/README.md): 组织首页展示内容（与根 README 同源）
+- [README.md](README.md): 本仓库说明与组织总览
+- [SECURITY.md](SECURITY.md): 组织级安全策略
+- [CODEOWNERS](CODEOWNERS): 代码审查所有者
+
+## 在线
+
+- 组织主页: https://github.com/SynomosAI
+- 技能生态全景: https://github.com/SynomosAI/synomosai-skills
+- 理论站位: https://github.com/SynomosAI/traceability-audit
+- 治理线入口（个人号）: https://github.com/zhaoxinghua09-cell/LGD
